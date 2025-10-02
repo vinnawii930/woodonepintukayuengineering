@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Card from "../../Card";
-import { faDoorOpen, faFileSignature, faHammer, faMagic, faTruckFast } from "@fortawesome/free-solid-svg-icons";
+import { faDoorOpen, faFileSignature, faMagic, faTruckFast } from "@fortawesome/free-solid-svg-icons";
 
 const Layanan = () => {
   return (
@@ -11,14 +11,14 @@ const Layanan = () => {
             <FontAwesomeIcon icon={faFileSignature} /> Layanan Yang Kami Tawarkan
           </h3>
         </div>
-        <div className="grid grid-cols-1 lg:grid-cols-4 gap-4">
-          <div className="bg-pr p-4 text-white rounded-lg shadow-sm">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+          {/* <div className="bg-pr p-4 text-white rounded-lg shadow-sm">
             <div className="w-12 h-12 flex justify-center items-center rounded-full bg-white text-pr">
               <FontAwesomeIcon icon={faHammer} size="xl" />
             </div>
             <h5 className="mt-3 font-bold text-xl">Pembuatan Pintu Custom</h5>
             <p className="text-base font-normal">sesuai desain dan ukuran</p>
-          </div>
+          </div> */}
           <div className="bg-pr p-4 text-white rounded-lg shadow-sm">
             <div className="w-12 h-12 flex justify-center items-center rounded-full bg-white text-pr">
               <FontAwesomeIcon icon={faDoorOpen} size="xl" />
@@ -37,7 +37,7 @@ const Layanan = () => {
             <div className="w-12 h-12 flex justify-center items-center rounded-full bg-white text-pr">
               <FontAwesomeIcon icon={faTruckFast} size="xl" />
             </div>
-            <h5 className="mt-3 font-bold text-xl">Pengiriman & Pemasangan</h5>
+            <h5 className="mt-3 font-bold text-xl">Pengiriman</h5>
             <p className="text-base font-normal">layanan ke berbagai daerah</p>
           </div>
         </div>

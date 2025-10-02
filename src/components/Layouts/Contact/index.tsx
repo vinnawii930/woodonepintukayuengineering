@@ -40,7 +40,7 @@ const Contact = () => {
                   <FontAwesomeIcon icon={faDoorOpen} size="xl" />
                 </div>
                 <h5 className="mt-5 font-bold text-xl">Kunjungi kami</h5>
-                <p className="text-base font-normal pt-3">Senin sampai Jumat 8 pagi - 5 sore</p>
+                <p className="text-base font-normal pt-3">Senin sampai Minggu 09.00 - 18.00</p>
                 <Link to={"https://maps.app.goo.gl/EJ33zFTm9LYF53cFA"}>
                   <button className="text-sm text-white bg-pr px-6 py-2 rounded-full cursor-pointer mt-5">View Maps</button>
                 </Link>
